@@ -26,9 +26,10 @@ My research interests are broadly in the area of responsible AI. Topics I’m in
 
 - AI alignment and safety
 - Algorithmic fairness
-- Federated learning in LLMs
+- Federated and distributed optimization in LLMs
 - New privacy-preserving algorithms
-- NLP applications for social good.
+- NLP applications for social good
+- Responsible AI for Science
 
 I hold a B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was the President's Gold Medalist. I also completed my MS at Stanford University. 
 
