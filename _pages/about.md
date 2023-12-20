@@ -1,49 +1,40 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 
-  Computer Science MS/Ph.D. Student at Carnegie Mellon University Language Technologies Institute 
+  MS/Ph.D. Student in Computer Science, Language Technologies Institute, Carnegie Mellon University
 subtitle2:
-  Previously, Applied Scientist at Amazon
+  Former Applied Scientist, Amazon
 
 profile:
   align: right
   image: aashiq.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # Set to true if you prefer a circular image
   address:
-    <p>amuhamed[AT]andrew[DOT]cmu[DOT]edu</p>  
-    <p>Gates Hillman Centers 5418</p>
+    - amuhamed[AT]andrew[DOT]cmu[DOT]edu
+    - Gates Hillman Centers 5418
 
-news: true  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true  # Display a list of news items
+latest_posts: false  # Display the newest posts
+selected_papers: true # Display selected papers
+social: true  # Include social icons at the bottom of the page
 ---
-Hi, my name is Aashiq. I am a first year MS/Ph.D. Student at the Language Technologies Institute in the Computer Science Department at CMU.
-I am advised by [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/).
+Hi, I'm Aashiq, a first-year MS/Ph.D. student at Carnegie Mellon University's Language Technologies Institute, advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). My research focuses on responsible AI, delving into AI alignment and safety, algorithmic fairness, federated learning in large language models (LLMs), privacy, and NLP applications for social good.
 
-My research interests are broadly in the area of responsible AI. Topics I’m interested in include (but are not limited to):
+I hold a B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was the President's Gold Medalist. I also completed my MS at Stanford University. Before embarking on my Ph.D. journey, I accrued five years of industry experience, working as an Applied Scientist at AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023).
 
-AI alignment and safety
-Algorithmic Fairness
-Federated learning in LLMs
-Privacy 
-NLP for social good
+Feel free to reach out if you're interested in my research or contemplating a Ph.D. after industry experience.
 
-I completed my B.Tech in Mechanical Engineering at the Indian Institute of Technology Roorkee here I was honored as the President's gold medalist, and my MS at Stanford University. Before starting my Ph.D., I spent around 5 years in industry working as an Applied Scientist at AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023). If you are interested in any of my research topics or considering a Ph.D. after industry feel free to reach out.
-
-<!-- LinkedIn Icon -->
-<a href="https://www.linkedin.com/in/aashiqmuhamed" target="_blank">
-    <i class="fa fa-linkedin"></i>
-</a>
-
-<!-- Twitter Icon -->
-<a href="https://twitter.com/aashiqmuhamed" target="_blank">
-    <i class="fa fa-twitter"></i>
-</a>
-
-<!-- Google Scholar Icon -->
-<a href="https://scholar.google.com/citations?user=GbVC5NYAAAAJ&hl=en" target="_blank">
-    <i class="ai ai-google-scholar"></i>
-</a>
+<!-- Social Icons -->
+<div>
+    <a href="https://www.linkedin.com/in/aashiqmuhamed" target="_blank">
+        <i class="fa fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/aashiqmuhamed" target="_blank">
+        <i class="fa fa-twitter"></i>
+    </a>
+    <a href="https://scholar.google.com/citations?user=GbVC5NYAAAAJ&hl=en" target="_blank">
+        <i class="ai ai-google-scholar"></i>
+    </a>
+</div>
