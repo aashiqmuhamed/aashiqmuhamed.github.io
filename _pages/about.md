@@ -35,16 +35,3 @@ I hold a B.Tech in Mechanical Engineering from the Indian Institute of Technolog
 Before embarking on my Ph.D. journey, I accrued five years of industry experience, working as an Applied Scientist at AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023).
 
 Feel free to reach out if you're interested in my research or contemplating a Ph.D. after industry experience.
-
-<!-- Social Icons -->
-<div>
-    <a href="https://www.linkedin.com/in/aashiqmuhamed" target="_blank">
-        <i class="fa fa-linkedin"></i>
-    </a>
-    <a href="https://twitter.com/aashiqmuhamed" target="_blank">
-        <i class="fa fa-twitter"></i>
-    </a>
-    <a href="https://scholar.google.com/citations?user=GbVC5NYAAAAJ&hl=en" target="_blank">
-        <i class="ai ai-google-scholar"></i>
-    </a>
-</div>
