@@ -42,3 +42,8 @@ I completed my B.Tech in Mechanical Engineering at the Indian Institute of Techn
 <a href="https://twitter.com/aashiqmuhamed" target="_blank">
     <i class="fa fa-twitter"></i>
 </a>
+
+<!-- Google Scholar Icon -->
+<a href="https://scholar.google.com/citations?user=GbVC5NYAAAAJ&hl=en" target="_blank">
+    <i class="ai ai-google-scholar"></i>
+</a>
