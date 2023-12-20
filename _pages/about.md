@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: 
-  MS/Ph.D. Student in Computer Science, Language Technologies Institute, Carnegie Mellon University
+  MS/Ph.D. Student in Computer Science, Carnegie Mellon University
 subtitle2:
   Former Applied Scientist, Amazon
 
