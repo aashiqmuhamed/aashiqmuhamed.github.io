@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work `Less is Fed More: Sparsity Reduces Feature Distortion in Federated Learning` studying sparsity and feature distortion in federated learning was accepted at the [Modular and Multilingual NLP Workshop](https://moomin-workshop.github.io/program) at EACL 2024. 
+Our work "Less is Fed More: Sparsity Reduces Feature Distortion in Federated Learning" studying sparsity and feature distortion in federated learning was accepted at the [Modular and Multilingual NLP Workshop](https://moomin-workshop.github.io/program) at EACL 2024. 
