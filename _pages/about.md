@@ -20,9 +20,9 @@ latest_posts: false  # Display the newest posts
 selected_papers: true # Display selected papers
 social: true  # Include social icons at the bottom of the page
 ---
-Hi, I'm Aashiq, a first-year MS/Ph.D. student at [CMU Language Technologies Institute](https://lti.cs.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). 
+Hi, I'm Aashiq, a second-year MS/Ph.D. student at [CMU Language Technologies Institute](https://lti.cs.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). 
 
-My research interests are broadly in the area of responsible AI. Topics I’m interested in include (but are not limited to):
+My research interests are broadly in the area of responsible AI. Topics I’m interested in include:
 
 - AI alignment, Safety, and Control
 - Compute, Data and Communication Efficiency
