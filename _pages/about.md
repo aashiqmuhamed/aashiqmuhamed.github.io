@@ -24,12 +24,10 @@ Hi, I'm Aashiq, a first-year MS/Ph.D. student at [CMU Language Technologies Inst
 
 My research interests are broadly in the area of responsible AI. Topics I’m interested in include (but are not limited to):
 
-- AI alignment and safety
-- Algorithmic fairness
-- Federated and distributed optimization in LLMs
-- New privacy-preserving algorithms
-- NLP applications for social good
-- Responsible AI for Science
+- AI alignment, safety, and control
+- Compute, Data and Communication Efficiency
+- Data Centric AI and Science of AI
+- Designing benchmarks
 
 I hold a B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was the President's Gold Medalist. I also completed my MS at Stanford University. 
 
