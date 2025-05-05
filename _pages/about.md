@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: 
-  MS/Ph.D. Student in Computer Science, Carnegie Mellon University
+  Ph.D. Student in Computer Science, Carnegie Mellon University
 subtitle2:
   Former Applied Scientist, Amazon
 
@@ -20,16 +20,14 @@ latest_posts: false  # Display the newest posts
 selected_papers: true # Display selected papers
 social: true  # Include social icons at the bottom of the page
 ---
-Hi, I'm Aashiq, a second-year MS/Ph.D. student at [CMU Language Technologies Institute](https://lti.cs.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). 
+Hi, I'm Aashiq, a Ph.D. student at [CMU Machine Learning Department](https://www.ml.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). 
 
 My research interests are broadly in the area of responsible AI. Topics I’m interested in include:
-
 - AI alignment, Safety, and Control
-- Compute, Data and Communication Efficiency
+- Compute, Data, and Communication Efficiency
 - Data-Centric AI and Science of AI
-- Designing Capability and Interpretability Benchmarks 
 
-I hold a B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was the President's Gold Medalist. I also completed my MS at Stanford University. 
+I hold a B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was the President's Gold Medalist. I also hold an MS in Mechanical Engineering from Stanford University and an MS in Language Technologies from [CMU Language Technologies Institute](https://lti.cs.cmu.edu/). 
 
 Before embarking on my Ph.D. journey, I accrued five years of industry experience, working as an Applied Scientist at AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023).
 
