@@ -23,8 +23,8 @@ Hi, I'm Aashiq, a Ph.D. student in the [CMU Machine Learning Department](https:/
 
 My research focuses on developing responsible AI systems that are safe, efficient, and aligned with human values. I'm particularly interested in:
 
-- **Foundations of Mechanistic Interpretability and AI Safety**: Sparse autoencoders for foundation model interpretability, machine unlearning methods, and safety mechanisms for large language models
-- **Efficient Foundation Model Training and Inference**: Structured sparsity techniques, memory-efficient training algorithms, federated learning, and computational optimization for large-scale models
+- **Foundations of Mechanistic Interpretability and AI Safety**: Sparse autoencoders for foundation model interpretability, machine unlearning, science of finetuning/alignment/reasoning.
+- **Efficient Foundation Model Training and Inference**: Structured sparsity, memory-efficient training algorithms, data in federated learning, computational optimization.
 - **Retrieval-Augmented Generation**: Collaborative RAG systems, LLM-as-a-judge frameworks, and novel evaluation paradigms for foundation models
 - **Technical AI Governance**: Technical research infrastructure and methodologies to support effective AI governance, policy implementation, and regulatory frameworks
 
