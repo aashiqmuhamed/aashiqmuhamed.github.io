@@ -669,7 +669,8 @@ footer.sticky-bottom {
 
       .abbr {
         height: auto;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
+        padding-right: 2rem;
 
         abbr {
           display: inline-block;
@@ -695,11 +696,13 @@ footer.sticky-bottom {
           font-weight: bold;
         }
         
-        .oral {
-          background-color: transparent !important;
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
+        .oral-badge {
+          background-color: #ff9800 !important;
+          color: white !important;
           font-weight: bold;
+          font-size: 0.85rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
       }
 

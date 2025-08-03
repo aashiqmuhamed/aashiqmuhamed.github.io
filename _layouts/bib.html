@@ -25,14 +25,20 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- if entry.oral1 -%}
+            <abbr class="badge oral-badge">Oral</abbr>
+          {%- endif -%}
           {%- if entry.abbr2 -%}
             <abbr class="badge">{{entry.abbr2}}</abbr>
+          {%- endif -%}
+          {%- if entry.oral2 -%}
+            <abbr class="badge oral-badge">Oral</abbr>
           {%- endif -%}
           {%- if entry.abbr3 -%}
             <abbr class="badge">{{entry.abbr3}}</abbr>
           {%- endif -%}
-          {%- if entry.oral -%}
-            <abbr class="badge oral">✨ Oral</abbr>
+          {%- if entry.oral3 -%}
+            <abbr class="badge oral-badge">Oral</abbr>
           {%- endif -%}
           {%- if entry.award -%}
             <abbr class="badge award">🏆 {{entry.award}}</abbr>
