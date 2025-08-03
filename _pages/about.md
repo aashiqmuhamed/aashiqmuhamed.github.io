@@ -28,13 +28,13 @@ My research focuses on developing responsible AI systems that are safe, efficien
 - **Retrieval-Augmented Generation**: Collaborative RAG systems, LLM-as-a-judge frameworks, and novel evaluation paradigms for foundation models
 - **Technical AI Governance**: Technical research infrastructure and methodologies to support effective AI governance, policy implementation, and regulatory frameworks
 
-## Background
+## background
 
 I bring a unique interdisciplinary perspective to my research, with degrees spanning engineering, language technologies, and machine learning. I earned my B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was awarded the President's Gold Medal. I subsequently completed an MS in Mechanical Engineering at Stanford University and an MS in Language Technologies from the [CMU Language Technologies Institute](https://lti.cs.cmu.edu/).
 
 Before beginning my Ph.D., I spent five years in industry as an Applied Scientist at Amazon, working across diverse AI applications including AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023). This industry experience has shaped my research approach, emphasizing both theoretical rigor and practical impact.
 
-## Collaboration
+## collaboration
 
 I'm always excited to collaborate with fellow researchers at CMU and beyond. If you're working on related problems or interested in exploring research opportunities together, I'd love to hear from you. 
 
