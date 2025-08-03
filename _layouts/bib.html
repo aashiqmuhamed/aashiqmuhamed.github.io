@@ -25,6 +25,18 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- if entry.abbr2 -%}
+            <abbr class="badge">{{entry.abbr2}}</abbr>
+          {%- endif -%}
+          {%- if entry.abbr3 -%}
+            <abbr class="badge">{{entry.abbr3}}</abbr>
+          {%- endif -%}
+          {%- if entry.oral -%}
+            <abbr class="badge oral">✨ Oral</abbr>
+          {%- endif -%}
+          {%- if entry.award -%}
+            <abbr class="badge award">🏆 {{entry.award}}</abbr>
+          {%- endif -%}
         {%- endif -%}
         </div>
         {%- endif -%}
@@ -32,7 +44,13 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title">
+          {%- if entry.url -%}
+            <a href="{{entry.url}}">{{entry.title}}</a>
+          {%- else -%}
+            {{entry.title}}
+          {%- endif -%}
+        </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
