@@ -679,7 +679,7 @@ footer.sticky-bottom {
       .abbr {
         height: auto;
         margin-bottom: 0.5rem;
-        padding-right: 6rem;
+        padding-right: 1rem;
 
         abbr {
           display: inline-block;
@@ -710,6 +710,11 @@ footer.sticky-bottom {
             font-weight: bold;
           }
         }
+      }
+
+      // Add padding to content column for more horizontal spacing
+      .col-sm-8, .col-sm-10 {
+        padding-left: 2rem;
       }
 
       .title {
