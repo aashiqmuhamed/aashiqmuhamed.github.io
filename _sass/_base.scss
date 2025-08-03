@@ -669,7 +669,7 @@ footer.sticky-bottom {
 
       .abbr {
         height: auto;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
 
         abbr {
           display: inline-block;
@@ -729,7 +729,7 @@ footer.sticky-bottom {
         }
 
         >em {
-          border-bottom: 1px solid;
+          font-weight: bold;
           font-style: normal;
         }
 
