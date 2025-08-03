@@ -660,6 +660,14 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
+      padding: 1.5rem;
+      background-color: var(--global-bg-color);
+      border-radius: 0.5rem;
+      border: 1px solid var(--global-divider-color);
+      
+      &:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
 
       .preview {
         width: 100%;
@@ -688,13 +696,10 @@ footer.sticky-bottom {
             }
           }
           
-          &.oral-badge {
+          &.oral-venue {
             background-color: #ff9800 !important;
             color: white !important;
             font-weight: bold;
-            font-size: 0.85rem;
-            padding-left: 0.75rem;
-            padding-right: 0.75rem;
           }
           
           &.award {
@@ -711,12 +716,12 @@ footer.sticky-bottom {
         margin-bottom: 0.5rem;
         
         a {
-          color: var(--global-text-color);
+          color: #2196F3;
           text-decoration: none;
           
           &:hover {
             color: var(--global-theme-color);
-            text-decoration: none;
+            text-decoration: underline;
           }
         }
       }
