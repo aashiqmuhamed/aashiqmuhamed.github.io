@@ -746,6 +746,12 @@ footer.sticky-bottom {
           font-weight: bold;
           font-style: normal;
         }
+        
+        // Style for asterisks indicating equal contribution
+        sup {
+          font-size: 0.75em;
+          color: var(--global-theme-color);
+        }
 
         >span.more-authors {
           color: var(--global-text-color-light);
