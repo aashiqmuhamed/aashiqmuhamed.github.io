@@ -670,7 +670,7 @@ footer.sticky-bottom {
       .abbr {
         height: auto;
         margin-bottom: 0.5rem;
-        padding-right: 2rem;
+        padding-right: 4rem;
 
         abbr {
           display: inline-block;
@@ -687,22 +687,22 @@ footer.sticky-bottom {
               text-decoration: none;
             }
           }
-        }
-
-        .award {
-          background-color: transparent !important;
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-          font-weight: bold;
-        }
-        
-        .oral-badge {
-          background-color: #ff9800 !important;
-          color: white !important;
-          font-weight: bold;
-          font-size: 0.85rem;
-          padding-left: 0.75rem;
-          padding-right: 0.75rem;
+          
+          &.oral-badge {
+            background-color: #ff9800 !important;
+            color: white !important;
+            font-weight: bold;
+            font-size: 0.85rem;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+          }
+          
+          &.award {
+            background-color: transparent !important;
+            color: var(--global-theme-color) !important;
+            border: 1px solid var(--global-theme-color);
+            font-weight: bold;
+          }
         }
       }
 
