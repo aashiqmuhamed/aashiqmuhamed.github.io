@@ -186,6 +186,7 @@ latest_posts:
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
+lsi: false  # Disable LSI to prevent segmentation faults
 kramdown:
   input: GFM
   syntax_highlighter_opts:
