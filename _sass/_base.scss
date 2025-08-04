@@ -842,6 +842,14 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.media.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.media.hidden.open {
+        border-color: var(--global-text-color);
+      }
     }
   }
 }
