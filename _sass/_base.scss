@@ -709,6 +709,12 @@ footer.sticky-bottom {
             border: 1px solid var(--global-theme-color);
             font-weight: bold;
           }
+          
+          &.media-coverage {
+            background-color: #9c27b0 !important;
+            color: white !important;
+            font-weight: bold;
+          }
         }
       }
 
