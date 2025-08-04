@@ -24,7 +24,7 @@ Hi, I'm Aashiq, a Ph.D. student in the [CMU Machine Learning Department](https:/
 My research advances technical AI safety through mechanistic understanding and robust deployment of foundation models. As AI systems become increasingly powerful, ensuring their interpretability, efficiency, and alignment with human values is critical for safe deployment. I'm particularly interested in:
 
 - **Foundations of Mechanistic Interpretability and AI Safety**: Sparse autoencoders for foundation model interpretability, machine unlearning to remove harmful capabilities, and understanding the science of finetuning/alignment/reasoning.
-- **Interpretability-Guided Efficient AI**: Using mechanistic insights to inform efficiency decisions, memory-efficient training, interpretable data selection.
+- **Efficient AI**: Using mechanistic insights to inform efficiency decisions, memory-efficient training, interpretable data selection.
 - **Collaborative AI Systems**: Agentic safety, safe and verifiable RAG, collaborative RAG systems, LLM-as-a-judge frameworks, and novel evaluation paradigms for foundation models.
 - **Technical AI Governance**: Technical research infrastructure and methodologies to support effective AI governance, safety monitoring, policy implementation, and regulatory frameworks.
 
