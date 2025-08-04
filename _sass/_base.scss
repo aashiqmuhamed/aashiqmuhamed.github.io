@@ -715,6 +715,22 @@ footer.sticky-bottom {
             color: white !important;
             font-weight: bold;
           }
+          
+          &.media-outlet {
+            background-color: transparent !important;
+            color: #00bcd4 !important;
+            border: 1px solid #00bcd4;
+            font-weight: normal;
+            
+            a {
+              color: #00bcd4 !important;
+              
+              &:hover {
+                text-decoration: none;
+                color: #0097a7 !important;
+              }
+            }
+          }
         }
       }
 
@@ -840,14 +856,6 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
-      }
-
-      div.media.hidden {
-        border: dashed 1px var(--global-bg-color);
-      }
-
-      div.media.hidden.open {
         border-color: var(--global-text-color);
       }
     }

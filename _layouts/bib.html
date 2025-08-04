@@ -36,6 +36,18 @@
           {%- endif -%}
           {%- if entry.media -%}
             <abbr class="badge media-coverage">📰 Media Coverage</abbr>
+            {%- if entry.media_techcrunch %}
+              <abbr class="badge media-outlet"><a href="{{ entry.media_techcrunch }}" target="_blank">TechCrunch</a></abbr>
+            {%- endif %}
+            {%- if entry.media_decoder %}
+              <abbr class="badge media-outlet"><a href="{{ entry.media_decoder }}" target="_blank">The Decoder</a></abbr>
+            {%- endif %}
+            {%- if entry.media_venturebeat %}
+              <abbr class="badge media-outlet"><a href="{{ entry.media_venturebeat }}" target="_blank">VentureBeat</a></abbr>
+            {%- endif %}
+            {%- if entry.media_slator %}
+              <abbr class="badge media-outlet"><a href="{{ entry.media_slator }}" target="_blank">Slator</a></abbr>
+            {%- endif %}
           {%- endif -%}
         {%- endif -%}
         </div>
@@ -205,9 +217,6 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
-          {%- if entry.media %}
-            <a class="media btn btn-sm z-depth-0" role="button">Media</a>
-          {%- endif %}
           </div>
           {% if site.enable_publication_badges %}
           {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
@@ -255,27 +264,6 @@
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
-          </div>
-          {%- endif %}
-
-          {% if entry.media -%}
-          <!-- Hidden media coverage block -->
-          <div class="media hidden">
-            <p><strong>Media Coverage:</strong></p>
-            <ul>
-              {%- if entry.media_techcrunch %}
-                <li><a href="{{ entry.media_techcrunch }}" target="_blank">TechCrunch</a></li>
-              {%- endif %}
-              {%- if entry.media_decoder %}
-                <li><a href="{{ entry.media_decoder }}" target="_blank">The Decoder</a></li>
-              {%- endif %}
-              {%- if entry.media_venturebeat %}
-                <li><a href="{{ entry.media_venturebeat }}" target="_blank">VentureBeat</a></li>
-              {%- endif %}
-              {%- if entry.media_slator %}
-                <li><a href="{{ entry.media_slator }}" target="_blank">Slator</a></li>
-              {%- endif %}
-            </ul>
           </div>
           {%- endif %}
         </div>
