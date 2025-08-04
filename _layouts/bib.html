@@ -35,19 +35,23 @@
             <abbr class="badge award">🏆 {{entry.award}}</abbr>
           {%- endif -%}
           {%- if entry.media -%}
-            <abbr class="badge media-coverage">📰 Media Coverage</abbr>
-            {%- if entry.media_techcrunch %}
-              <abbr class="badge media-outlet"><a href="{{ entry.media_techcrunch }}" target="_blank">TechCrunch</a></abbr>
-            {%- endif %}
-            {%- if entry.media_decoder %}
-              <abbr class="badge media-outlet"><a href="{{ entry.media_decoder }}" target="_blank">The Decoder</a></abbr>
-            {%- endif %}
-            {%- if entry.media_venturebeat %}
-              <abbr class="badge media-outlet"><a href="{{ entry.media_venturebeat }}" target="_blank">VentureBeat</a></abbr>
-            {%- endif %}
-            {%- if entry.media_slator %}
-              <abbr class="badge media-outlet"><a href="{{ entry.media_slator }}" target="_blank">Slator</a></abbr>
-            {%- endif %}
+            <div style="margin-top: 0.5rem;">
+              <abbr class="badge media-coverage">✨ Featured in Media</abbr>
+              <div style="margin-top: 0.25rem;">
+                {%- if entry.media_techcrunch %}
+                  <abbr class="badge media-outlet"><a href="{{ entry.media_techcrunch }}" target="_blank">📱 TechCrunch</a></abbr>
+                {%- endif %}
+                {%- if entry.media_decoder %}
+                  <abbr class="badge media-outlet"><a href="{{ entry.media_decoder }}" target="_blank">🤖 The Decoder</a></abbr>
+                {%- endif %}
+                {%- if entry.media_venturebeat %}
+                  <abbr class="badge media-outlet"><a href="{{ entry.media_venturebeat }}" target="_blank">💼 VentureBeat</a></abbr>
+                {%- endif %}
+                {%- if entry.media_slator %}
+                  <abbr class="badge media-outlet"><a href="{{ entry.media_slator }}" target="_blank">🌐 Slator</a></abbr>
+                {%- endif %}
+              </div>
+            </div>
           {%- endif -%}
         {%- endif -%}
         </div>
