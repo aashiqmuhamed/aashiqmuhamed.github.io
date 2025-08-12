@@ -21,12 +21,12 @@ social: true  # Include social icons at the bottom of the page
 
 Hi, I'm Aashiq, a Ph.D. student in the [CMU Machine Learning Department](https://www.ml.cmu.edu/), where I'm advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). 
 
-My research advances technical AI safety through interpretability, efficiency, and alignment. I'm particularly interested in:
+My research focuses on technical preparedness for the intelligence explosion and AGI's grand challenges. I work on building the technical foundations needed to navigate rapid AI-driven transformation safely. I'm particularly interested in:
 
-- **Foundations of Mechanistic Interpretability and AI Safety**: Sparse autoencoders for foundation model interpretability, machine unlearning to remove harmful capabilities, and understanding the science of finetuning/alignment/reasoning.
-- **Efficient AI**: Using mechanistic insights to inform efficiency decisions, memory-efficient training and inference, interpretable data selection.
-- **Collaborative AI Systems**: Agentic safety, safe and verifiable RAG, collaborative RAG systems, LLM-as-a-judge frameworks, and novel evaluation paradigms for foundation models.
-- **Technical AI Governance**: Technical research infrastructure and methodologies to support effective AI governance, safety monitoring, policy implementation, and regulatory frameworks.
+- **Foundations of Mechanistic Interpretability**: Developing SAEs and interpretability methods to understand foundation model internals and the science of finetuning, alignment, and reasoning. Using mechanistic insights to guide machine unlearning for removing harmful capabilities. These foundations are critical for maintaining human oversight as AI systems approach and exceed human-level research ability during the intelligence explosion.
+- **Efficient AI to Prevent Power Concentration**: Advancing memory-efficient training and inference to democratize access to powerful AI capabilities. Leveraging mechanistic insights to dramatically reduce computational requirements, preventing extreme concentration of power during explosive AI growth. 
+- **Collaborative AI Systems for Epistemic Security**: Building safe and verifiable collaborative RAG systems, LLM-as-a-judge frameworks, and evaluation paradigms that enhance collective decision-making during rapid technological change. Developing AI systems that resist manipulation and super-persuasion as society navigates grand challenges.
+- **Technical Infrastructure for AGI Governance**: Creating verification methods and safety monitoring systems that enable international cooperation and if-then commitments during the intelligence explosion. Building technical foundations that support responsible decision-makers while preventing AI-enabled coups, surveillance, and other mechanisms of permanent power concentration.
 
 ## background
 
