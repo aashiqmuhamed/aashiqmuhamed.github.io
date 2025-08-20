@@ -1,11 +1,10 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: aashiq.pdf
 description: 
-toc:
-  sidebar: left
 ---
+
+For a copy of my CV, please contact me via email at **amuhamed[AT]andrew[DOT]cmu[DOT]edu**.
