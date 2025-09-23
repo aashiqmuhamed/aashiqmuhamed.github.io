@@ -21,15 +21,15 @@
             {%- if site.data.venues[entry.abbr].color != blank -%}
               {%- assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' -%}
             {%- endif -%}
-            <abbr class="badge{% if entry.oral1 %} oral-venue{% endif %}" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}{% if entry.oral1 %} Oral{% endif %}</a></abbr>
+            <abbr class="badge{% if entry.oral1 or entry.spotlight1 %} oral-venue{% endif %}" {% if venue_style %}{{venue_style}}{% endif %}><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}{% if entry.oral1 %} Oral{% elsif entry.spotlight1 %} Spotlight{% endif %}</a></abbr>
           {%- else -%}
-            <abbr class="badge{% if entry.oral1 %} oral-venue{% endif %}">{{entry.abbr}}{% if entry.oral1 %} Oral{% endif %}</abbr>
+            <abbr class="badge{% if entry.oral1 or entry.spotlight1 %} oral-venue{% endif %}">{{entry.abbr}}{% if entry.oral1 %} Oral{% elsif entry.spotlight1 %} Spotlight{% endif %}</abbr>
           {%- endif -%}
           {%- if entry.abbr2 -%}
-            <abbr class="badge{% if entry.oral2 %} oral-venue{% endif %}">{{entry.abbr2}}{% if entry.oral2 %} Oral{% endif %}</abbr>
+            <abbr class="badge{% if entry.oral2 or entry.spotlight2 %} oral-venue{% endif %}">{{entry.abbr2}}{% if entry.oral2 %} Oral{% elsif entry.spotlight2 %} Spotlight{% endif %}</abbr>
           {%- endif -%}
           {%- if entry.abbr3 -%}
-            <abbr class="badge{% if entry.oral3 %} oral-venue{% endif %}">{{entry.abbr3}}{% if entry.oral3 %} Oral{% endif %}</abbr>
+            <abbr class="badge{% if entry.oral3 or entry.spotlight3 %} oral-venue{% endif %}">{{entry.abbr3}}{% if entry.oral3 %} Oral{% elsif entry.spotlight3 %} Spotlight{% endif %}</abbr>
           {%- endif -%}
           {%- if entry.award -%}
             <abbr class="badge award">🏆 {{entry.award}}</abbr>
