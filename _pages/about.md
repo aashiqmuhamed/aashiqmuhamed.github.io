@@ -5,7 +5,6 @@ permalink: /
 subtitle: 
   Ph.D. Student in Computer Science, Carnegie Mellon University
 subtitle2:
-  Former Applied Scientist, Amazon
 profile:
   align: right
   image: aashiq.jpg
@@ -19,7 +18,7 @@ selected_papers: true # Display selected papers
 social: true  # Include social icons at the bottom of the page
 ---
 
-Hi, I'm Aashiq, a Ph.D. student in the [CMU Machine Learning Department](https://www.ml.cmu.edu/), where I'm advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I also closely collaborate with Professor [Andrew Ilyas](https://andrewilyas.com/).
+I am a Ph.D. student in the [CMU Machine Learning Department](https://www.ml.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I also closely collaborate with Professor [Andrew Ilyas](https://andrewilyas.com/).
 
 My research develops the **science and safety infrastructure for autonomous agentic systems**. I work on both the foundational interpretability methods needed to understand how models reason internally, and the applied tools to monitor and govern agents in deployment. I'm particularly interested in:
 
