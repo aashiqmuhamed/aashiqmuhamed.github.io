@@ -28,7 +28,7 @@ My research develops the **science and safety infrastructure for autonomous agen
 - **Multi-Agent Collusion and Coordination**: Using mechanistic tools to detect and understand collusion, deception, and covert coordination in multi-agent systems.
 - **Tamper Resistance and Open-Weight Safety**: Making safety properties robust in open-weight models where adversaries have full access to modify weights.
 
-I am supported by the [Amazon PhD Fellowship](https://www.amazon.science/academic-engagements/2025-amazon-phd-fellows), [Anthropic Fellows Program](https://www.anthropic.com/news/anthropic-fellows-program), the [Siebel Scholars Foundation](https://www.siebelscholars.com/scholar/aashiq-muhamed/), the [Cooperative AI Foundation](https://www.cooperativeai.com/), [Longview Philanthropy](https://www.longview.org/), and [MATS](https://www.matsprogram.org/alumni/aashiq-muhamed).
+I am supported by the [Amazon PhD Fellowship](https://www.csd.cs.cmu.edu/news/10-cmu-students-selected-for-amazon-ai-phd-fellowship-program), [Anthropic Fellows Program](https://alignment.anthropic.com/2024/anthropic-fellows-program/), the [Siebel Scholars Foundation](https://www.siebelscholars.com/scholar-profile/3807/), the [Cooperative AI Foundation](https://www.cooperativeai.com/), [Longview Philanthropy](https://www.longview.org/), [CAIS](https://safe.ai/), [SPAR](https://sparai.org/projects/f25/), and [MATS](https://www.matsprogram.org/alumni/aashiq-muhamed).
 
 ## background
 
