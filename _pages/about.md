@@ -36,10 +36,4 @@ I bring an interdisciplinary perspective, with degrees spanning engineering, lan
 
 Before beginning my Ph.D., I spent five years in industry as an Applied Scientist at Amazon, working across diverse AI applications including AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023). This industry experience deeply informs my research, emphasizing systems that are both theoretically grounded and practically deployable.
 
-## collaboration
-
-I'm always excited to collaborate with fellow researchers at CMU and beyond. If you're working on related problems or interested in exploring research opportunities together, I'd love to hear from you.
-
-For prospective collaborators at CMU, please feel free to fill out this brief [collaboration form](https://docs.google.com/forms/d/e/1FAIpQLSeGCF8kjBqfPZfXIc8NB6LRAXhRxOZ_9DydA5nGi77NR3W5dg/viewform?usp=header) to help me understand your interests and background—though don't hesitate to reach out directly regardless.
-
-I'm also happy to chat with anyone considering a Ph.D. after industry experience, as I know firsthand how rewarding (and challenging) that transition can be.
+I'm always open to collaboration — feel free to reach out.
