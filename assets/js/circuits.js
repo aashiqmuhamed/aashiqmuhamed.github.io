@@ -47,18 +47,18 @@
 
     var r = mulberry32(42);
     var nodes = [];
-    var nodeCount = Math.floor((w * h) / 18000);
+    var nodeCount = Math.floor((w * h) / 10000);
 
     for (var i = 0; i < nodeCount; i++) {
       nodes.push({
         x: range(r, 0, w),
         y: range(r, 0, h),
-        radius: range(r, 1, 2.8),
-        color: r() < 0.7 ? PALETTE.ink : PALETTE[choice(r, FILL_KEYS)]
+        radius: range(r, 1.2, 3.2),
+        color: r() < 0.55 ? PALETTE.ink : PALETTE[choice(r, FILL_KEYS)]
       });
     }
 
-    var edgeThreshold = 120;
+    var edgeThreshold = 130;
     var maxEdgesPerNode = 2;
     var edgeCounts = {};
     var edges = [];
@@ -88,8 +88,8 @@
       svg.appendChild(el("line", {
         x1: a.x, y1: a.y, x2: b.x, y2: b.y,
         stroke: PALETTE.ink,
-        "stroke-width": 0.5,
-        opacity: range(r, 0.06, 0.14).toFixed(3)
+        "stroke-width": 0.7,
+        opacity: range(r, 0.12, 0.25).toFixed(3)
       }));
     }
 
@@ -98,21 +98,21 @@
       svg.appendChild(el("circle", {
         cx: n.x, cy: n.y, r: n.radius,
         fill: n.color,
-        opacity: range(r, 0.08, 0.22).toFixed(3)
+        opacity: range(r, 0.15, 0.35).toFixed(3)
       }));
     }
 
-    var clusterCount = Math.floor((w * h) / 400000) + 2;
+    var clusterCount = Math.floor((w * h) / 300000) + 3;
     for (i = 0; i < clusterCount; i++) {
-      var cx = range(r, w * 0.1, w * 0.9);
+      var cx = range(r, w * 0.08, w * 0.92);
       var cy = range(r, h * 0.05, h * 0.95);
       var clusterColor = PALETTE[choice(r, FILL_KEYS)];
-      var clusterSize = Math.floor(range(r, 4, 8));
+      var clusterSize = Math.floor(range(r, 5, 10));
       var clusterNodes = [];
 
       for (j = 0; j < clusterSize; j++) {
         var angle = range(r, 0, Math.PI * 2);
-        var radius = range(r, 8, 35);
+        var radius = range(r, 10, 40);
         clusterNodes.push({
           x: cx + Math.cos(angle) * radius,
           y: cy + Math.sin(angle) * radius
@@ -121,13 +121,13 @@
 
       for (j = 0; j < clusterNodes.length; j++) {
         for (k = j + 1; k < clusterNodes.length; k++) {
-          if (r() < 0.4) {
+          if (r() < 0.45) {
             svg.appendChild(el("line", {
               x1: clusterNodes[j].x, y1: clusterNodes[j].y,
               x2: clusterNodes[k].x, y2: clusterNodes[k].y,
               stroke: clusterColor,
-              "stroke-width": 0.6,
-              opacity: range(r, 0.1, 0.2).toFixed(3)
+              "stroke-width": 0.8,
+              opacity: range(r, 0.15, 0.3).toFixed(3)
             }));
           }
         }
@@ -136,24 +136,24 @@
       for (j = 0; j < clusterNodes.length; j++) {
         svg.appendChild(el("circle", {
           cx: clusterNodes[j].x, cy: clusterNodes[j].y,
-          r: range(r, 1.5, 3.5),
+          r: range(r, 2, 4),
           fill: clusterColor,
-          opacity: range(r, 0.18, 0.35).toFixed(3)
+          opacity: range(r, 0.25, 0.5).toFixed(3)
         }));
       }
 
       svg.appendChild(el("circle", {
         cx: cx, cy: cy,
-        r: range(r, 28, 50),
+        r: range(r, 30, 55),
         fill: "none",
         stroke: clusterColor,
-        "stroke-width": 0.5,
-        "stroke-dasharray": "2 4",
-        opacity: range(r, 0.06, 0.12).toFixed(3)
+        "stroke-width": 0.6,
+        "stroke-dasharray": "3 5",
+        opacity: range(r, 0.1, 0.2).toFixed(3)
       }));
     }
 
-    var arcCount = 3 + Math.floor(r() * 3);
+    var arcCount = 4 + Math.floor(r() * 3);
     for (i = 0; i < arcCount; i++) {
       var ax = range(r, -w * 0.1, w * 1.1);
       var ay = range(r, -h * 0.05, h * 1.05);
@@ -171,8 +171,8 @@
         d: "M " + x1 + " " + y1 + " A " + rx + " " + ry + " 0 " + largeArc + " 1 " + x2 + " " + y2,
         fill: "none",
         stroke: PALETTE.ink,
-        "stroke-width": 0.5,
-        opacity: range(r, 0.04, 0.1).toFixed(3)
+        "stroke-width": 0.6,
+        opacity: range(r, 0.06, 0.14).toFixed(3)
       }));
     }
   }

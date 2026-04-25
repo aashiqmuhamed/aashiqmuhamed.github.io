@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Selected as one of 15 fellows (from 3,600+ applicants) for the [Digital Minds Fellowship](https://digitalminds.ai/) at the University of Cambridge, running August 3–9, 2026.
+Selected as one of 15 fellows (from 3,600+ applicants) for the [Digital Minds Fellowship](https://digitalminds.cam/fellowship/) at the University of Cambridge, running August 3–9, 2026.
