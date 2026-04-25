@@ -3,37 +3,51 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
-// Colors
-$red-color:           #FF3636 !default;
-$red-color-dark:      #B71C1C !default;
-$orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
-$cyan-color:          #2698BA !default;
+// Colors — earthy editorial palette
+$red-color:           #c44536 !default;
+$red-color-dark:      #922b21 !default;
+$orange-color:        #cb592f !default;
+$blue-color:          #3d67c0 !default;
+$blue-color-dark:     #2c4a8a !default;
+$cyan-color:          #4c9a8f !default;
 $light-cyan-color:    lighten($cyan-color, 25%);
-$green-color:         #00ab37 !default;
+$green-color:         #3a7d5e !default;
 $green-color-lime:    #B7D12A !default;
-$green-color-dark:    #009f06 !default;
+$green-color-dark:    #2d6648 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
-$purple-color:        #B509AC !default;
+$purple-color:        #6b5b95 !default;
 $light-purple-color:  lighten($purple-color, 25%);
-$pink-color:          #f92080 !default;
+$pink-color:          #cd8f7c !default;
 $pink-color-light:    #ffdddd !default;
-$yellow-color:        #efcc00 !default;
+$yellow-color:        #e3b658 !default;
+
+// Earthy accents
+$navy-color:          #1c2845 !default;
+$teal-color:          #4c726f !default;
+$terra-color:         #ac4f36 !default;
+$mustard-color:       #e3b658 !default;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
+$grey-color-dark:     #1a1d23;
+$grey-900:            #22252b;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // Theme colors
+$theme-color:             $blue-color !default;
+$theme-color-dark:        $cyan-color !default;
+$link-color:              #577BAF !default;
+$link-color-dark:         #7db8c9 !default;
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-light:     rgba($blue-color, 0.06);
 $code-bg-color-dark:      #2c3237 !default;
+
+// Typography
+$serif-font:  "Spectral", "Iowan Old Style", Georgia, serif;
+$sans-font:   "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

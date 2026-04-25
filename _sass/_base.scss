@@ -4,6 +4,14 @@
 
 // Typography
 
+body {
+  font-family: $serif-font;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
 p,
 h1,
 h2,
@@ -17,6 +25,18 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $serif-font;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 hr {
@@ -36,11 +56,15 @@ table {
 
 a,
 table.table a {
-  color: var(--global-theme-color);
+  color: var(--global-link-color, var(--global-theme-color));
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
 
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-hover-color);
+    text-decoration: none;
+    border-bottom-color: var(--global-hover-color);
   }
 
   &:hover:after :not(.nav-item.dropdown) {
@@ -62,10 +86,11 @@ img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  border-left: 3px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-style: italic;
 
   p {
     margin-bottom: 0;
@@ -132,6 +157,8 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
 
   img {
     width: 100%;
@@ -139,6 +166,7 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    font-family: $serif-font;
   }
 
   .card-item {
@@ -167,7 +195,9 @@ blockquote {
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: $sans-font;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
 
     p {
       display: inline-block;
@@ -199,6 +229,7 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  color: var(--global-text-color-light);
 
   a {
     color: inherit;
@@ -217,7 +248,7 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.98;
 }
 
 .navbar .dropdown-menu {
@@ -250,25 +281,38 @@ blockquote {
   a {
     &:hover {
       text-decoration: none;
+      border-bottom: none;
     }
   }
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: $serif-font;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: -0.005em;
+    border-bottom: none;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
+    font-family: $serif-font;
+    font-style: italic;
+    font-size: 1.05rem;
+    transition: color 0.18s;
+    border-bottom: none;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-text-color);
     }
   }
 
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
-    font-weight: bolder;
-    color: var(--global-theme-color);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--global-text-color);
+    border-bottom: none;
 
     &:hover {
       color: var(--global-hover-color);
@@ -350,17 +394,22 @@ blockquote {
 
 .social {
   text-align: center;
+  margin-top: 2rem;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3.5rem;
 
     a {
+      border-bottom: none;
+
       i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        color: var(--global-text-color-light);
+        transition: color 0.2s ease-in-out;
       }
 
       &:hover {
+        border-bottom: none;
+
         i::before {
           color: var(--global-theme-color);
         }
@@ -370,6 +419,9 @@ blockquote {
 
   .contact-note {
     font-size: 0.8rem;
+    font-family: $sans-font;
+    color: var(--global-text-color-light);
+    margin-top: 0.5rem;
   }
 }
 
@@ -408,6 +460,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  border-top: 1px solid var(--global-divider-color);
 
   .container {
     color: var(--global-footer-text-color);
@@ -417,6 +470,7 @@ footer.fixed-bottom {
 
   a {
     color: var(--global-footer-link-color);
+    border-bottom: none;
 
     &:hover {
       color: var(--global-theme-color);
@@ -477,7 +531,10 @@ footer.sticky-bottom {
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 4rem;
+    font-family: $serif-font;
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 }
 
@@ -520,6 +577,7 @@ footer.sticky-bottom {
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
+      font-family: $sans-font;
       margin-bottom: 0;
     }
 
@@ -533,6 +591,7 @@ footer.sticky-bottom {
     a {
       color: var(--global-text-color);
       text-decoration: none;
+      border-bottom: none;
 
       &:hover {
         color: var(--global-theme-color);
@@ -582,6 +641,7 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
+    border-bottom: none;
 
     &:hover {
       .card-title {
@@ -631,6 +691,7 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
+    font-family: $serif-font;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -662,12 +723,14 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
       padding: 1.5rem;
-      background-color: var(--global-bg-color);
-      border-radius: 0.5rem;
+      background-color: var(--global-card-bg-color);
+      border-radius: 6px;
       border: 1px solid var(--global-divider-color);
-      
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
       &:hover {
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        border-color: rgba(0, 0, 0, 0.15);
       }
 
       .preview {
@@ -690,60 +753,64 @@ footer.sticky-bottom {
           padding-bottom: 0.25rem;
           margin-right: 0.5rem;
           margin-bottom: 0.25rem;
-          border-radius: 0.25rem;
+          border-radius: 4px;
+          font-family: $sans-font;
+          font-size: 0.85rem;
+          letter-spacing: 0.02em;
 
           a {
             color: white;
+            border-bottom: none;
 
             &:hover {
               text-decoration: none;
             }
           }
-          
+
           &.oral-venue {
-            background-color: #ff9800 !important;
+            background-color: #{$terra-color} !important;
             color: white !important;
             font-weight: bold;
           }
-          
+
           &.award {
             background-color: transparent !important;
             color: var(--global-theme-color) !important;
             border: 1px solid var(--global-theme-color);
             font-weight: bold;
           }
-          
+
           &.media-coverage {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+            background: linear-gradient(135deg, #{$blue-color} 0%, #{$teal-color} 100%) !important;
             color: white !important;
             font-weight: bold;
-            box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 2px 4px rgba(61, 103, 192, 0.2);
             border: none !important;
           }
-          
+
           &.media-outlet {
-            background-color: #f8f9fa !important;
-            color: #495057 !important;
-            border: 1px solid #e9ecef;
+            background-color: var(--global-card-bg-color) !important;
+            color: var(--global-text-color-light) !important;
+            border: 1px solid var(--global-divider-color);
             font-weight: 500;
             transition: all 0.2s ease;
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-            
+
             a {
-              color: #495057 !important;
+              color: var(--global-text-color-light) !important;
               text-decoration: none;
-              
+
               &:hover {
                 text-decoration: none;
               }
             }
-            
+
             &:hover {
-              background-color: #667eea !important;
-              border-color: #667eea !important;
-              box-shadow: 0 4px 6px rgba(102, 126, 234, 0.2);
+              background-color: var(--global-theme-color) !important;
+              border-color: var(--global-theme-color) !important;
+              box-shadow: 0 4px 6px rgba(61, 103, 192, 0.15);
               transform: translateY(-1px);
-              
+
               a {
                 color: white !important;
               }
@@ -758,21 +825,25 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        font-weight: 600;
+        font-family: $serif-font;
         margin-bottom: 0.5rem;
-        
+
         a {
-          color: #2196F3;
+          color: var(--global-link-color, var(--global-theme-color));
           text-decoration: none;
-          
+          border-bottom: none;
+
           &:hover {
-            color: var(--global-theme-color);
-            text-decoration: underline;
+            color: var(--global-hover-color);
+            border-bottom: 1px solid var(--global-hover-color);
           }
         }
       }
 
       .author {
+        font-size: 0.95rem;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -786,7 +857,7 @@ footer.sticky-bottom {
           font-weight: bold;
           font-style: normal;
         }
-        
+
         // Style for asterisks indicating equal contribution
         sup {
           font-size: 0.75em;
@@ -808,16 +879,21 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
+          border: 1px solid var(--global-divider-color);
           padding-left: 1rem;
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          border-radius: 4px;
+          font-family: $sans-font;
+          font-size: 0.85rem;
+          transition: all 0.18s;
 
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            background-color: rgba($blue-color, 0.04);
           }
         }
       }
@@ -905,6 +981,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+  font-size: 0.9em;
 }
 
 
@@ -922,6 +999,7 @@ html.transition *:after {
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
+    font-family: $sans-font;
     margin-bottom: 0;
   }
 
@@ -1113,6 +1191,7 @@ nav[data-toggle="toc"] {
   a {
     color: var(--global-text-color-light);
     text-decoration: none;
+    border-bottom: none;
 
     .card-text {
       overflow: hidden;
@@ -1148,4 +1227,41 @@ nav[data-toggle="toc"] {
 
 #toc-sidebar {
   z-index: 1;
+}
+
+// About page post header
+.post-header {
+  .post-title {
+    font-family: $serif-font;
+    font-weight: 600;
+    font-size: clamp(2rem, 4.8vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.022em;
+    color: var(--global-text-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .desc {
+    font-family: $sans-font;
+    font-size: 1rem;
+    color: var(--global-text-color-light);
+    letter-spacing: 0.01em;
+  }
+}
+
+// News section
+.news {
+  .table {
+    td {
+      font-size: 0.95rem;
+      border-top: 1px solid var(--global-divider-color);
+    }
+
+    .date {
+      font-family: $sans-font;
+      font-weight: 700;
+      color: var(--global-theme-color);
+      white-space: nowrap;
+    }
+  }
 }

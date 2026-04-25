@@ -5,17 +5,19 @@
 :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-text-color: #{$navy-color};
+  --global-text-color-light: #555c70;
+  --global-theme-color: #{$theme-color};
+  --global-hover-color: #{$blue-color-dark};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-footer-bg-color: #f7f6f3;
+  --global-footer-text-color: #555c70;
+  --global-footer-link-color: #{$navy-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: #e6e4de;
+  --global-card-bg-color: #fafaf8;
+
+  --global-link-color: #{$link-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -50,17 +52,19 @@
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #d8d8dc;
+  --global-text-color-light: #9a9aa3;
+  --global-theme-color: #{$theme-color-dark};
+  --global-hover-color: lighten($cyan-color, 15%);
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
+  --global-footer-bg-color: #15171c;
+  --global-footer-text-color: #9a9aa3;
+  --global-footer-link-color: #d8d8dc;
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
+  --global-divider-color: #333640;
   --global-card-bg-color: #{$grey-900};
+
+  --global-link-color: #{$link-color-dark};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

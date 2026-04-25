@@ -13,12 +13,10 @@ body {
 }
 
 body.fixed-top-nav {
-  // Add some padding for the nav-bar.
   padding-top: 56px;
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
   padding-bottom: 0;
 }
 
@@ -30,21 +28,6 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    border-radius: 6px;
   }
 }
-
-// TODO: redefine content layout.
-
-
-/******************************************************************************
- * Publications
- ******************************************************************************/
-
-// TODO: redefine publications layout.
-
-
-/*****************************************************************************
-* Projects
-*****************************************************************************/
-
-// TODO: redefine projects layout.
