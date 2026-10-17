@@ -8,9 +8,10 @@ middle_name:
 last_name: Muhamed
 email: amuhamed@cs.cmu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic website for Aashiq Muhamed.
+  Aashiq Muhamed is a Machine Learning Ph.D. student at Carnegie Mellon University
+  researching AI safeguards, data poisoning, and oversight for safe and trustworthy deployment.
 footer_text: >
-keywords: aashiq_muhamed , ai_safety_researcher # add your own keywords or leave empty
+keywords: Aashiq Muhamed, AI safety, safeguards, data poisoning, AI oversight, mechanistic interpretability
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

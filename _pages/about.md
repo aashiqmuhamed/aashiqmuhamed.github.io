@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: 
-  Ph.D. Student in Computer Science, Carnegie Mellon University
+  Ph.D. Student in Machine Learning, Carnegie Mellon University
 subtitle2:
 profile:
   align: right
@@ -20,20 +20,24 @@ social: true  # Include social icons at the bottom of the page
 
 I am a Ph.D. student in the [CMU Machine Learning Department](https://www.ml.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I also closely collaborate with Professor [Andrew Ilyas](https://andrewilyas.com/).
 
-My research develops the **science and safety infrastructure for autonomous agentic systems**. I work on both the foundational interpretability methods needed to understand how models reason internally, and the applied tools to monitor and govern agents in deployment. I'm particularly interested in:
+I am an [Amazon PhD Fellow](https://www.csd.cs.cmu.edu/news/10-cmu-students-selected-for-amazon-ai-phd-fellowship-program), a [Cooperative AI PhD Fellow](https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows), a [Siebel Scholar](https://www.siebelscholars.com/scholar-profile/3807/), and a two-time [MATS Scholar](https://www.matsprogram.org/alumni/aashiq-muhamed) (2024 and 2025). I was an AI Safety Research Fellow in the [Anthropic Fellows Program](https://alignment.anthropic.com/2024/anthropic-fellows-program/) and a [Digital Minds Fellow](https://digitalminds.cam/fellowship/) at the University of Cambridge.
 
-- **Foundations of Mechanistic Interpretability**: Developing SAEs, circuit analysis, and interpretability methods to understand model internals—including feature consistency, rare concept detection, unlearning, and the geometry of learned representations.
-- **Interpretability of Reasoning Models**: Understanding how reasoning capabilities emerge and can be intervened on during training across paradigms (SFT, RLVR, and beyond), and what drives robustness in finetuned reasoning models.
-- **Agent Safety Monitoring and Evaluation**: What makes an effective safety monitor? I study chain-of-thought monitoring, mechanistic monitors, and benchmarking their robustness against direct misuse and evasion.
-- **Multi-Agent Collusion and Coordination**: Using mechanistic tools to detect and understand collusion, deception, and covert coordination in multi-agent systems.
-- **Tamper Resistance and Open-Weight Safety**: Making safety properties robust in open-weight models where adversaries have full access to modify weights.
+My research develops the technical foundations for building AI systems that remain **safe and trustworthy after deployment**. I organize this work around three problems:
 
-I am supported by the [Amazon PhD Fellowship](https://www.csd.cs.cmu.edu/news/10-cmu-students-selected-for-amazon-ai-phd-fellowship-program), [Anthropic Fellows Program](https://alignment.anthropic.com/2024/anthropic-fellows-program/), the [Siebel Scholars Foundation](https://www.siebelscholars.com/scholar-profile/3807/), the [Cooperative AI PhD Fellowship](https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows), [Longview Philanthropy](https://www.longview.org/), [Coefficient Giving](https://coefficientgiving.org/), [CAIS](https://safe.ai/), [SPAR](https://sparai.org/projects/f25/), [MARS](https://caish.org/mars), and [MATS](https://www.matsprogram.org/alumni/aashiq-muhamed).
+- **Safeguards**: I study how safety mechanisms in open-weight models can be bypassed or removed, and develop defenses against these attacks.
+- **Poisoning**: I investigate how backdoors and secret loyalties are introduced into models and persist through subsequent training. I develop white-box methods to detect hidden behavior that evades standard evaluation.
+- **Oversight**: I develop and study control protocols that use trusted monitors to limit harm from untrusted agents, including when model-level defenses fail or agents collude.
+
+Across these directions, I use mechanistic interpretability to understand model behavior and inform the design of defenses and monitors.
+
+My research has received grants and in-kind support from [Coefficient Giving](https://coefficientgiving.org/), the [Center for AI Safety (CAIS)](https://safe.ai/), [Goodfire](https://www.goodfire.com/grants), [Snorkel AI](https://benchmarks.snorkel.ai/), and [Longview Philanthropy](https://www.longview.org/).
 
 ## background
 
-I bring an interdisciplinary perspective, with degrees spanning engineering, language technologies, and machine learning. I earned my B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I was awarded the President's Gold Medal. I subsequently completed an MS in Mechanical Engineering at Stanford University and an MS in Language Technologies from the [CMU Language Technologies Institute](https://lti.cs.cmu.edu/).
+Before CMU, I spent nearly four years at Amazon building and deploying large-scale AI systems across AWS DeepComposer, Amazon Search M5, and AWS AI. This experience informs my focus on safety methods that remain effective in deployment.
 
-Before beginning my Ph.D., I spent five years in industry as an Applied Scientist at Amazon, working across diverse AI applications including AWS DeepComposer (2019-2021), Amazon Search M5 (2021-2022), and AWS AI (2022-2023). This industry experience deeply informs my research, emphasizing systems that are both theoretically grounded and practically deployable.
+I earned my B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I received the President's Gold Medal, and an MS in Mechanical Engineering from Stanford University. I completed my MS in Language Technologies at the [CMU Language Technologies Institute](https://lti.cs.cmu.edu/).
+
+I also mentor researchers through [SPAR](https://sparai.org/projects/f25/) and [MARS](https://caish.org/mars).
 
 I'm always open to collaboration — feel free to reach out.
