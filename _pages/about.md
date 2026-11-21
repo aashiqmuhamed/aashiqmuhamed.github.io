@@ -18,7 +18,7 @@ selected_papers: true # Display selected papers
 social: true  # Include social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in [CMU's Machine Learning Department](https://www.ml.cmu.edu/), advised by [Zico Kolter](https://zicokolter.com/) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I previously completed my MS in Language Technologies at [CMU](https://lti.cs.cmu.edu/), where I was advised by [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/).
+I am a Ph.D. student in [CMU's Machine Learning Department](https://www.ml.cmu.edu/), advised by [Zico Kolter](https://zicokolter.com/) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I previously completed my MS in Language Technologies at [CMU](https://lti.cs.cmu.edu/), where I was advised by [Mona Diab](https://www.lti.cs.cmu.edu/people/faculty/diab-mona.html) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/).
 
 I am an [Amazon PhD Fellow](https://www.csd.cs.cmu.edu/news/10-cmu-students-selected-for-amazon-ai-phd-fellowship-program), a [Cooperative AI PhD Fellow](https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows), a [Siebel Scholar](https://www.siebelscholars.com/scholar-profile/3807/), and a two-time [MATS Scholar](https://www.matsprogram.org/alumni/aashiq-muhamed) (2024 and 2025). I was an AI Safety Research Fellow in the [Anthropic Fellows Program](https://alignment.anthropic.com/2024/anthropic-fellows-program/) and a [Digital Minds Fellow](https://digitalminds.cam/fellowship/) at the University of Cambridge.
 
