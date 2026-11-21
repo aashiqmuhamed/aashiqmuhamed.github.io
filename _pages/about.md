@@ -18,7 +18,7 @@ selected_papers: true # Display selected papers
 social: true  # Include social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the [CMU Machine Learning Department](https://www.ml.cmu.edu/), advised by Professors [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I also closely collaborate with Professor [Andrew Ilyas](https://andrewilyas.com/).
+I am a Ph.D. student in [CMU's Machine Learning Department](https://www.ml.cmu.edu/), advised by [Zico Kolter](https://zicokolter.com/) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/). I previously completed my MS in Language Technologies at [CMU](https://lti.cs.cmu.edu/), where I was advised by [Mona Diab](https://lti.cs.cmu.edu/people/222228496/mona-diab) and [Virginia Smith](https://www.cs.cmu.edu/~smithv/).
 
 I am an [Amazon PhD Fellow](https://www.csd.cs.cmu.edu/news/10-cmu-students-selected-for-amazon-ai-phd-fellowship-program), a [Cooperative AI PhD Fellow](https://www.cooperativeai.com/post/announcing-the-2026-cooperative-ai-phd-fellows), a [Siebel Scholar](https://www.siebelscholars.com/scholar-profile/3807/), and a two-time [MATS Scholar](https://www.matsprogram.org/alumni/aashiq-muhamed) (2024 and 2025). I was an AI Safety Research Fellow in the [Anthropic Fellows Program](https://alignment.anthropic.com/2024/anthropic-fellows-program/) and a [Digital Minds Fellow](https://digitalminds.cam/fellowship/) at the University of Cambridge.
 
@@ -36,7 +36,7 @@ My research has received grants and in-kind support from [Coefficient Giving](ht
 
 Before CMU, I spent nearly four years at Amazon building and deploying large-scale AI systems across AWS DeepComposer, Amazon Search M5, and AWS AI. This experience informs my focus on safety methods that remain effective in deployment.
 
-I earned my B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I received the President's Gold Medal, and an MS in Mechanical Engineering from Stanford University. I completed my MS in Language Technologies at the [CMU Language Technologies Institute](https://lti.cs.cmu.edu/).
+I earned my B.Tech in Mechanical Engineering from the Indian Institute of Technology, Roorkee, where I received the President's Gold Medal, and an MS in Mechanical Engineering from Stanford University.
 
 I also mentor researchers through [SPAR](https://sparai.org/projects/f25/) and [MARS](https://caish.org/mars).
 
