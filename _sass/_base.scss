@@ -876,7 +876,7 @@ footer.sticky-bottom {
           }
         }
 
-        >em {
+        strong {
           font-weight: bold;
           font-style: normal;
         }
@@ -887,14 +887,24 @@ footer.sticky-bottom {
           color: var(--global-theme-color);
         }
 
-        >span.more-authors {
-          color: var(--global-text-color-light);
+        button.more-authors {
+          background: none;
+          border: 0;
           border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-text-color-light);
           cursor: pointer;
+          font: inherit;
+          margin-left: 0.35rem;
+          padding: 0;
 
           &:hover {
             color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+            border-bottom-color: var(--global-text-color);
+          }
+
+          &:focus-visible {
+            outline: 2px solid var(--global-theme-color);
+            outline-offset: 3px;
           }
         }
       }

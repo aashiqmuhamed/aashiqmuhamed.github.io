@@ -1,0 +1,78 @@
+{%- assign author_count = include.entry.author_array | size -%}
+{%- assign full_authors = '' -%}
+{%- assign compact_authors = '' -%}
+{%- assign last_visible_author_index = -1 -%}
+
+{%- for author in include.entry.author_array -%}
+  {%- assign author_is_self = false -%}
+  {%- assign author_last_name = author.last | strip_html | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | strip -%}
+  {%- assign author_first_name = author.first | strip_html | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | strip -%}
+  {%- if site.scholar.last_name contains author_last_name -%}
+    {%- if site.scholar.first_name contains author_first_name -%}
+      {%- assign author_is_self = true -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- assign coauthor_url = nil -%}
+  {%- if site.data.coauthors[author_last_name] -%}
+    {%- for coauthor in site.data.coauthors[author_last_name] -%}
+      {%- if coauthor.firstname contains author_first_name -%}
+        {%- assign coauthor_url = coauthor.url -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- capture author_html -%}
+    {%- if author_is_self -%}
+      <strong>{{ author.first }} {{ author.last }}</strong>
+    {%- elsif coauthor_url -%}
+      <a href="{{ coauthor_url }}">{{ author.first }} {{ author.last }}</a>
+    {%- else -%}
+      {{ author.first }} {{ author.last }}
+    {%- endif -%}
+  {%- endcapture -%}
+
+  {%- assign separator = ', ' -%}
+  {%- if forloop.first -%}
+    {%- assign separator = '' -%}
+  {%- elsif forloop.last -%}
+    {%- if author_count == 2 -%}
+      {%- assign separator = ' and ' -%}
+    {%- else -%}
+      {%- assign separator = ', and ' -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- assign full_authors = full_authors | append: separator | append: author_html -%}
+
+  {%- if forloop.index0 < 3 or author_is_self or forloop.last -%}
+    {%- assign author_gap = forloop.index0 | minus: last_visible_author_index -%}
+    {%- if author_gap > 1 -%}
+      {%- assign separator = ', …, ' -%}
+    {%- endif -%}
+    {%- assign compact_authors = compact_authors | append: separator | append: author_html -%}
+    {%- assign last_visible_author_index = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<div class="author">
+  {%- if site.max_author_limit and author_count > site.max_author_limit -%}
+    <span class="authors-compact">{{ compact_authors }}</span>
+    <span class="authors-full" id="authors-{{ include.entry.key | escape }}" hidden>{{ full_authors }}</span>
+    <button
+      type="button"
+      class="more-authors"
+      aria-expanded="false"
+      aria-controls="authors-{{ include.entry.key | escape }}"
+      onclick="
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.parentElement.querySelector('.authors-compact').hidden = !expanded;
+        this.parentElement.querySelector('.authors-full').hidden = expanded;
+        this.setAttribute('aria-expanded', String(!expanded));
+        this.textContent = expanded ? 'show all authors' : 'show fewer authors';
+      "
+    >show all authors</button>
+  {%- else -%}
+    {{ full_authors }}
+  {%- endif -%}
+</div>
